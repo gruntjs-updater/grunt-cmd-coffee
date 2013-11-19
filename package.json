@@ -1,0 +1,45 @@
+{
+  "name": "grunt-cmd-coffee",
+  "description": "Process coffeescript compile repeat functions.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/kevinkindom/grunt-cmd-coffee",
+  "author": {
+    "name": "Kevin",
+    "email": "kevinkindom@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevinkindom/grunt-cmd-coffee"
+  },
+  "bugs": {
+    "url": "https://github.com/kevinkindom/grunt-cmd-coffee/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/root/kevinkindom/grunt-cmd-coffee/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-cmd-concat": "~0.2.5",
+    "grunt-cmd-transport": "~0.4.0",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
